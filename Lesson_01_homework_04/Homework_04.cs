@@ -10,9 +10,3 @@ if (number%==0)
     Console.WriteLine(number)
 }
 }
-
-         
-//for (int number = 2; number < 101; number++)       
-//if (number%2==0)            
-//Console.WriteLine(number);
-
