@@ -1,5 +1,4 @@
 ﻿// Задача №3 
-
 Console.WriteLine("Введите число с 1 до 7:");
 int day = Convert.ToInt32(Console.ReadLine());
 if (day == 7 || day == 6)
