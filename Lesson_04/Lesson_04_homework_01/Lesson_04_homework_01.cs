@@ -1,8 +1,8 @@
 ﻿//Задача №1
 
-Console.WriteLine("Введите число A: ");
+Console.WriteLine("Введите число A : ");
   int numberA = Convert.ToInt32(Console.ReadLine());
-  Console.WriteLine("Введите число B: ");
+  Console.WriteLine("Введите число B : ");
   int numberB = Convert.ToInt32(Console.ReadLine());
 
 int Exponentiation(int numberA, int numberB)
@@ -16,4 +16,4 @@ int Exponentiation(int numberA, int numberB)
 }
  
   int exponentiation = Exponentiation(numberA, numberB);
-  Console.WriteLine("Ответ: " + exponentiation);
+  Console.WriteLine("Ответ : " + exponentiation);

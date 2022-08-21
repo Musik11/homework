@@ -20,4 +20,4 @@ int number = Convert.ToInt32(Console.ReadLine());
   }
   
 int sumNumber = SumNumber(number);
-Console.WriteLine("Сумма цифр в числе: " + sumNumber);
+Console.WriteLine("Сумма цифр в числе : " + sumNumber);
