@@ -1,6 +1,6 @@
 ﻿// Задача №1
 
-Console.Write("Insert your numbers (use space, pls): "); 
+Console.Write("Введите число : "); 
 int[] user_arr = Array.ConvertAll(Console.ReadLine().Split(),int.Parse);  
 
 int count = 0;                                           
@@ -13,4 +13,4 @@ for (int i = 0; i < user_arr.Length; i++)
     }
 }
 
-Console.WriteLine($"Number of positive values: " + count);
+Console.WriteLine($"Количество положительных чисел : " + count);
